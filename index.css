@@ -1,0 +1,298 @@
+#hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+		url(assets/images/plate.jpg);
+}
+
+#food {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#food button {
+	grid-row: 4;
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 1rem;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#extra-content {
+	display: none;
+}
+
+.food-container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.food-img {
+	width: 80%;
+	padding-top: 2rem;
+	margin: auto;
+	position: relative;
+}
+
+.food-text {
+	padding: 2rem 2rem;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	letter-spacing: 0.1rem;
+	text-align: justify;
+}
+
+.food-header {
+	font-size: 3rem;
+	margin: auto;
+	font-weight: 600;
+	text-align: center;
+}
+
+.ladakh {
+	background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(155, 79, 39));
+}
+
+.ladakh-text {
+	color: #fefff7;
+}
+
+.jnk {
+	background: linear-gradient(to bottom, rgb(155, 79, 39), #d3bba0);
+}
+.jnk-text {
+	color: #4f0101;
+}
+
+.hp {
+	background-image: linear-gradient(to bottom, #d3bba0, #c85b0a);
+}
+.hp-text {
+	color: #300f04;
+}
+
+.punjab {
+	background-image: linear-gradient(to bottom, #c85b0a, #b89550);
+}
+.punjab-text {
+	color: #3c0900;
+}
+
+.uk {
+	background-image: linear-gradient(to bottom, #b89550, #542c22);
+}
+.uk-text {
+	color: #f4ddb8;
+}
+
+.haryana {
+	background-image: linear-gradient(to bottom, #542c22, #fcbe29);
+}
+.haryana-text {
+	color: #131c03;
+}
+
+.rajasthan {
+	background-image: linear-gradient(to bottom, #fcbe29, #996848);
+}
+.rajasthan-text {
+	color: #480c01;
+}
+
+.up {
+	background-image: linear-gradient(to bottom, #996848, #a74521);
+}
+.up-text {
+	color: #2c0300;
+}
+
+.delhi {
+	background-image: linear-gradient(to bottom, #a74521, #ccc4ad);
+}
+.delhi-text {
+	color: #520005;
+}
+
+.gujarat {
+	background-image: linear-gradient(to bottom, #ccc4ad, #d9c812);
+}
+.gujarat-text {
+	color: #2b2e01;
+}
+
+.mp {
+	background-image: linear-gradient(to bottom, #d9c812, #d9a606);
+}
+.mp-text {
+	color: #000000;
+}
+
+.bihar {
+	background-image: linear-gradient(to bottom, #d9a606, #dc6204);
+}
+.bihar-text {
+	color: #14161c;
+}
+
+.sikkim {
+	background-image: linear-gradient(to bottom, #dc6204, #ebeae4);
+}
+.sikkim-text {
+	color: #550806;
+}
+
+.ap {
+	background-image: linear-gradient(to bottom, #ebeae4, #946b5d);
+}
+.ap-text {
+	color: #550806;
+}
+
+.assam {
+	background-image: linear-gradient(to bottom, #946b5d, #d17a06);
+}
+.assam-text {
+	color: #ffffff;
+}
+
+.meghalaya {
+	background-image: linear-gradient(to bottom, #d17a06, #f69b38);
+}
+.meghalaya-text {
+	color: #36040e;
+}
+
+.nagaland {
+	background-image: linear-gradient(to bottom, #f69b38, #c02302);
+}
+.nagaland-text {
+	color: #210000;
+}
+
+.manipur {
+	background-image: linear-gradient(to bottom, #c02302, #d4a769);
+}
+.manipur-text {
+	color: #1f0c0b;
+}
+
+.manipur {
+	background-image: linear-gradient(to bottom, #c02302, #d4a769);
+}
+.manipur-text {
+	color: #1f0c0b;
+}
+
+.tripura {
+	background-image: linear-gradient(to bottom, #d4a769, #9a4410);
+}
+.tripura-text {
+	color: #120b11;
+}
+
+.mizoram {
+	background-image: linear-gradient(to bottom, #9a4410, #db9636);
+}
+.mizoram-text {
+	color: #000000;
+}
+
+.jharkhand {
+	background-image: linear-gradient(to bottom, #db9636, #e9c737);
+}
+.jharkhand-text {
+	color: #741f0a;
+}
+
+.wb {
+	background-image: linear-gradient(to bottom, #e9c737, #ece6df);
+}
+.wb-text {
+	color: #4e130d;
+}
+
+.maharashtra {
+	background-image: linear-gradient(to bottom, #ece6df, #f2bd70);
+}
+.maharashtra-text {
+	color: #811102;
+}
+
+.chhattisgarh {
+	background-image: linear-gradient(to bottom, #f2bd70, #ca8300);
+}
+.chhattisgarh-text {
+	color: #503106;
+}
+
+.odisha {
+	background-image: linear-gradient(to bottom, #ca8300, #cad8cd);
+}
+.odisha-text {
+	color: #0a1807;
+}
+
+.telangana {
+	background-image: linear-gradient(to bottom, #cad8cd, #f77902);
+}
+.telangana-text {
+	color: #3f1b20;
+}
+
+.karnataka {
+	background-image: linear-gradient(to bottom, #f77902, #eea14b);
+}
+.karnataka-text {
+	color: #790300;
+}
+
+.aph {
+	background-image: linear-gradient(to bottom, #eea14b, #d94019);
+}
+.aph-text {
+	color: #661000;
+}
+
+.kerala {
+	background-image: linear-gradient(to bottom, #d94019, #eef0ef);
+}
+.kerala-text {
+	color: #661000;
+}
+
+.tn {
+	background-image: linear-gradient(to bottom, #eef0ef, #bea876);
+}
+.tn-text {
+	color: #9c2f0d;
+}
+
+.foot {
+	background: linear-gradient(to bottom, rgb(155, 79, 39), #ffffff);
+}
+
+.foot-1 {
+	background-image: linear-gradient(to bottom, #bea876, #ffffff);
+}
+
+@media (min-width: 768px) {
+	.food-container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.food-img {
+		grid-row: span 2;
+	}
+
+	#food button {
+		grid-column: span 2;
+	}
+}
