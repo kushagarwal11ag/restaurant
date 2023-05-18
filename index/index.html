@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spice Route</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../../assets/logo.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="../assets/font-awesome/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="../main.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<main>
+			<section id="hero">
+				<div id="hero-text">
+					<nav>
+						<a><img src="../assets/logo.png" alt="website logo" /></a>
+						<a href="../about-us/about.html">ABOUT US</a>
+						<a>MENU</a>
+						<a href="../gallery/gallery.html">GALLERY</a>
+						<a href="../contact/contact.html">CONTACT</a>
+					</nav>
+					<header>Savor the journey through India's culinary heritage</header>
+				</div>
+			</section>
+
+			<section id="food">
+				<div class="food-container ladakh">
+					<img
+						class="food-img"
+						src="../assets/images/food/ladakh.jpg"
+						alt="Famous food from Ladakh known as Thupka"
+					/>
+					<header class="food-text food-header ladakh-text">Ladakh</header>
+					<p class="food-text ladakh-text">
+						<span style="font-weight: bold">Thukpa</span> is a traditional
+						Ladakhi dish that is both delicious and comforting. This hearty
+						noodle soup is made with wheat noodles, vegetables, and your choice
+						of meat. It is seasoned with fragrant spices and herbs, creating a
+						flavorful and soul-warming broth. Thukpa is a must-try dish that
+						reflects the rich culinary heritage of Ladakh.
+					</p>
+					<button onclick="show()" id="button">
+						<div>Read More</div>
+						<i class="fa fa-angle-down"></i>
+					</button>
+				</div>
+
+				<section id="extra-content">
+					<div class="food-container jnk">
+						<header class="food-text food-header jnk-text">
+							Jammu &amp; Kashmir
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/jnk.jpg"
+							alt="Famous food from Jammu and Kashmir known as Dum Aloo"
+						/>
+						<p class="food-text jnk-text">
+							<span style="font-weight: bold">Dum Aloo</span> is a popular
+							Kashmiri dish that combines tender baby potatoes with a rich and
+							flavorful gravy. The potatoes are cooked in a slow-cooked aromatic
+							tomato and yogurt-based sauce, infused with a blend of traditional
+							Kashmiri spices. This delicacy showcases the distinct and
+							mouthwatering flavors of Jammu and Kashmir's cuisine, perfect for
+							indulging in a culinary adventure.
+						</p>
+					</div>
+
+					<div class="food-container hp">
+						<img
+							class="food-img"
+							src="../assets/images/food/hp.jpg"
+							alt="Famous food from Himachal Pradesh known as Chha Gosht"
+						/>
+						<header class="food-text food-header hp-text">
+							Himachal Pradesh
+						</header>
+						<p class="food-text hp-text">
+							<span style="font-weight: bold">Chha Gosht</span> is a traditional
+							Himachali dish that features succulent lamb or mutton slow-cooked
+							in a flavorful blend of herbs and spices. This authentic dish has
+							a distinct taste and aroma that reflects the culinary heritage of
+							Himachal Pradesh. Served with rice, roti, or Siddu, Chha Gosht is
+							a must-try for anyone looking to indulge in the rich and aromatic
+							flavors of Himachali cuisine.
+						</p>
+					</div>
+
+					<div class="food-container punjab">
+						<header class="food-text food-header punjab-text">Punjab</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/punjab.jpg"
+							alt="Famous food from Punjab known as Chole Bhature"
+						/>
+						<p class="food-text punjab-text">
+							<span style="font-weight: bold">Chole Bhature</span> is a beloved
+							Punjabi dish that combines spicy chickpea curry (chole) with
+							deep-fried bread (bhature). The chickpeas are cooked in a tangy
+							and flavorful blend of spices, while the bhature is soft, fluffy,
+							and crispy. This indulgent and satisfying dish is a true
+							representation of Punjab's culinary heritage.
+						</p>
+					</div>
+
+					<div class="food-container uk">
+						<img
+							class="food-img"
+							src="../assets/images/food/uttarakhand.jpg"
+							alt="Famous food from Uttarakhand known as Bal Mithai"
+						/>
+						<header class="food-text food-header uk-text">Uttarakhand</header>
+						<p class="food-text uk-text">
+							<span style="font-weight: bold">Bal Mithai</span> is a renowned
+							sweet treat hailing from Uttarakhand, India. It consists of small
+							squares of khoya (milk solids) coated with sugar and adorned with
+							white sugar balls. With its fudgy texture, caramel-like flavor,
+							and enticing appearance, Bal Mithai delights taste buds and
+							represents the rich culinary heritage of Uttarakhand.
+						</p>
+					</div>
+
+					<div class="food-container haryana">
+						<header class="food-text food-header haryana-text">Haryana</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/haryana.jpg"
+							alt="Famous food from Haryana known as Kadhi Pakora"
+						/>
+						<p class="food-text haryana-text">
+							<span style="font-weight: bold">Kadhi Pakora</span> is a popular
+							Haryanvi dish that combines deep-fried gram flour (besan) fritters
+							(pakoras) with a tangy and spiced yogurt-based curry. The pakoras
+							are crisp and flavorful, while the kadhi is thick, creamy, and
+							sour. This mouthwatering dish exemplifies the culinary legacy of
+							Haryana with its enticing flavors and contrasting textures.
+						</p>
+					</div>
+
+					<div class="food-container rajasthan">
+						<img
+							class="food-img"
+							src="../assets/images/food/rajasthan.jpg"
+							alt="Famous food from Rajasthan known as Dal Baati Churma"
+						/>
+						<header class="food-text food-header rajasthan-text">
+							Rajasthan
+						</header>
+						<p class="food-text rajasthan-text">
+							<span style="font-weight: bold">Dal Baati Churma</span> is an
+							iconic Rajasthani dish that showcases the rich culinary heritage
+							of the region. It comprises three elements: Dal, a flavorful
+							lentil curry; Baati, a baked bread with a crispy exterior and soft
+							interior; and Churma, a sweet crumbled wheat dessert. This
+							wholesome and delectable combination offers a symphony of flavors,
+							textures, and aromas, representing the essence of Rajasthani
+							cuisine.
+						</p>
+					</div>
+
+					<div class="food-container up">
+						<header class="food-text food-header up-text">Uttar Pradesh</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/up.jpg"
+							alt="Famous food from Uttar Pradesh known as Aloo Tikki"
+						/>
+						<p class="food-text up-text">
+							<span style="font-weight: bold">Aloo Tikki</span> is a beloved
+							street food delicacy that originates from Uttar Pradesh. It
+							features golden and crispy potato patties seasoned with a blend of
+							aromatic spices. These mouthwatering tikkis are shallow-fried to
+							perfection, resulting in a crunchy exterior and a soft, flavorful
+							interior. Served with chutneys and garnishes, Aloo Tikki is a
+							delightful and popular snack that satisfies taste buds with its
+							delightful textures and savory taste.
+						</p>
+					</div>
+
+					<div class="food-container delhi">
+						<img
+							class="food-img"
+							src="../assets/images/food/delhi.jpg"
+							alt="Famous food from Delhi known as Dahi Bhalla"
+						/>
+						<header class="food-text food-header delhi-text">Delhi</header>
+						<p class="food-text delhi-text">
+							<span style="font-weight: bold">Dahi Bhalla</span> is a popular
+							street food from Delhi, India. It features deep-fried lentil
+							fritters (vadas) that are soaked in yogurt and garnished with
+							tangy tamarind chutney, zesty mint chutney, and a sprinkle of
+							spices. The combination of creamy yogurt, crispy vadas, and
+							flavorful chutneys creates a refreshing and indulgent taste
+							experience that is loved by food enthusiasts.
+						</p>
+					</div>
+
+					<div class="food-container gujarat">
+						<header class="food-text food-header gujarat-text">Gujarat</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/gujarat.jpg"
+							alt="Famous food from Gujarat known as Dhokla"
+						/>
+						<p class="food-text gujarat-text">
+							<span style="font-weight: bold">Dhokla</span> is a quintessential
+							Gujarati delicacy, celebrated for its fluffy texture and
+							delightful tanginess. Prepared from fermented chickpea flour
+							(besan), it undergoes a steaming process before being adorned with
+							a tempering of mustard seeds, curry leaves, and fresh coriander.
+							This light and flavorful snack embodies the vibrant culinary
+							traditions of Gujarat, cherished as a popular choice for its
+							wholesome taste and nutritional value.
+						</p>
+					</div>
+
+					<div class="food-container mp">
+						<img
+							class="food-img"
+							src="../assets/images/food/mp.jpg"
+							alt="Famous food from Madhya Pradesh known as Poha"
+						/>
+						<header class="food-text food-header mp-text">
+							Madhya Pradesh
+						</header>
+						<p class="food-text mp-text">
+							<span style="font-weight: bold">Poha</span> is a beloved breakfast
+							dish from Madhya Pradesh. It features flattened rice flakes cooked
+							with a medley of spices, onions, and aromatic curry leaves. This
+							flavorful and nourishing dish is garnished with fresh coriander
+							and served with a side of crispy sev and a dash of tangy lemon.
+							Poha is a popular choice for its simplicity, comforting flavors,
+							and wholesome start to the day.
+						</p>
+					</div>
+
+					<div class="food-container bihar">
+						<header class="food-text food-header bihar-text">Bihar</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/bihar.jpg"
+							alt="Famous food from Bihar known as Litti Chokha"
+						/>
+						<p class="food-text bihar-text">
+							<span style="font-weight: bold">Litti Chokha</span> is a
+							traditional Bihari specialty that tantalizes taste buds with its
+							rustic flavors. It comprises roasted wheat flour balls (litti)
+							stuffed with a delectable mix of roasted gram flour, spices, and
+							ghee. Served with mashed potato and smoky eggplant (chokha), this
+							hearty dish offers a delightful blend of textures and a burst of
+							authentic flavors, representing the vibrant culinary heritage of
+							Bihar.
+						</p>
+					</div>
+
+					<div class="food-container sikkim">
+						<img
+							class="food-img"
+							src="../assets/images/food/sikkim.jpg"
+							alt="Famous food from Sikkim known as Momos"
+						/>
+						<header class="food-text food-header sikkim-text">Sikkim</header>
+						<p class="food-text sikkim-text">
+							Sikkimese <span style="font-weight: bold">Momos</span> are a
+							cherished specialty that captivates taste buds with their
+							irresistible flavors. These steamed or fried dumplings feature a
+							delicate yet chewy exterior, enveloping a tantalizing filling of
+							vegetables, meat, or cheese. Served with a tangy tomato chutney or
+							spicy dipping sauce, Sikkimese Momos are a quintessential street
+							food delight that showcases the rich culinary heritage of the
+							region.
+						</p>
+					</div>
+
+					<div class="food-container ap">
+						<header class="food-text food-header ap-text">
+							Arunachal Pradesh
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/ap.jpg"
+							alt="Famous food from Arunachal Pradesh known as Zan"
+						/>
+						<p class="food-text ap-text">
+							<span style="font-weight: bold">Zan</span>, a revered dish from
+							Arunachal Pradesh, embodies the essence of the region's culinary
+							traditions. This wholesome porridge is crafted by simmering
+							millets or maize flour with water to achieve a thick and
+							comforting consistency. Often accompanied by vegetables and
+							spices, Zan is a nourishing delight that represents the cultural
+							richness and nutritional heritage of Arunachal Pradesh.
+						</p>
+					</div>
+
+					<div class="food-container assam">
+						<img
+							class="food-img"
+							src="../assets/images/food/assam.jpg"
+							alt="Famous food from Assam known as Assam Tea"
+						/>
+						<header class="food-text food-header assam-text">Assam</header>
+						<p class="food-text assam-text">
+							<span style="font-weight: bold">Assam Cha</span>, also known as
+							Assam Tea, is a distinguished beverage that represents the soul of
+							Assam. Grown in the lush tea gardens of the region, it boasts a
+							robust, malty flavor with a deep amber hue. Sipping on Assam Cha
+							offers a delightful experience, where the rich aroma and
+							invigorating taste transport you to the enchanting tea estates of
+							Assam.
+						</p>
+					</div>
+
+					<div class="food-container meghalaya">
+						<header class="food-text food-header meghalaya-text">
+							Meghalaya
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/meghalaya.jpg"
+							alt="Famous food from Meghalaya known as Jadoh"
+						/>
+						<p class="food-text meghalaya-text">
+							<span style="font-weight: bold">Jadoh</span>, a culinary gem from
+							Meghalaya, is a delightful rice dish that tantalizes the taste
+							buds with its aromatic flavors. Combining fragrant rice with
+							succulent meat, such as pork or chicken, and a medley of spices,
+							Jadoh offers a harmonious blend of textures and tastes. This
+							beloved Khasi specialty reflects the rich cultural heritage of
+							Meghalaya and is cherished for its comforting and satisfying
+							nature.
+						</p>
+					</div>
+
+					<div class="food-container nagaland">
+						<img
+							class="food-img"
+							src="../assets/images/food/nagaland.jpg"
+							alt="Famous food from Nagaland known as Naga Pork Curry"
+						/>
+						<header class="food-text food-header nagaland-text">
+							Nagaland
+						</header>
+						<p class="food-text nagaland-text">
+							<span style="font-weight: bold">Naga Pork Curry</span> is a
+							tantalizing dish from Nagaland, bursting with robust flavors and
+							fiery spices. Succulent chunks of pork are marinated with local
+							spices and cooked with bamboo shoots, ghost peppers, and fermented
+							soybean paste. This aromatic and spicy delicacy embodies the
+							essence of Naga cuisine, delighting taste buds and offering a
+							memorable gastronomic experience.
+						</p>
+					</div>
+
+					<div class="food-container manipur">
+						<header class="food-text food-header manipur-text">Manipur</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/manipur.jpg"
+							alt="Famous food from Manipur known as Eromba"
+						/>
+						<p class="food-text manipur-text">
+							<span style="font-weight: bold">Eromba</span>, a traditional
+							Manipuri dish, is a delightful fusion of boiled vegetables,
+							fermented fish, and aromatic spices. This zesty delicacy showcases
+							the vibrant flavors of Manipuri cuisine, with a tangy and savory
+							profile that awakens the palate. Eromba is a culinary masterpiece,
+							representing the rich cultural heritage of Manipur and offering a
+							unique and unforgettable dining experience.
+						</p>
+					</div>
+
+					<div class="food-container tripura">
+						<img
+							class="food-img"
+							src="../assets/images/food/tripura.jpg"
+							alt="Famous food from Tripura known as Bai"
+						/>
+						<header class="food-text food-header tripura-text">Tripura</header>
+						<p class="food-text tripura-text">
+							<span style="font-weight: bold">Bai</span>, a culinary treasure
+							from Tripura, mesmerizes with its delightful flavors and aromatic
+							spices. This traditional fish stew showcases the region's love for
+							seafood, with succulent fish simmered in a flavorful broth
+							enriched with herbs and fermented bamboo shoots. Bai is a spicy
+							and tangy delicacy that embodies the rich cultural heritage and
+							culinary traditions of Tripura.
+						</p>
+					</div>
+
+					<div class="food-container mizoram">
+						<header class="food-text food-header mizoram-text">Mizoram</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/mizoram.jpg"
+							alt="Famous food from Mizoram known as Misa Mach Poora"
+						/>
+						<p class="food-text mizoram-text">
+							<span style="font-weight: bold">Misa Mach Poora</span>, a
+							delectable dish from Mizoram, tantalizes the taste buds with its
+							unique flavors. Grilled shrimps are marinated with local spices
+							and cooked to perfection, resulting in a delightful seafood
+							delicacy. Misa Mach Poora showcases the rich culinary heritage of
+							Mizoram, offering a harmonious blend of smoky, savory, and
+							aromatic notes that leave a lasting impression.
+						</p>
+					</div>
+
+					<div class="food-container jharkhand">
+						<img
+							class="food-img"
+							src="../assets/images/food/jharkhand.jpg"
+							alt="Famous food from Jharkhand known as Dhuska"
+						/>
+						<header class="food-text food-header jharkhand-text">
+							Jharkhand
+						</header>
+						<p class="food-text jharkhand-text">
+							<span style="font-weight: bold">Dhuska</span>, a beloved culinary
+							delight from Jharkhand, is a crispy and savory snack that
+							captivates taste buds. Made from a fermented batter of rice and
+							lentils, these deep-fried discs boast a golden brown hue and a
+							delightful crunch. Served with aromatic aloo curry or chutney,
+							Dhuska embodies the rich flavors and cultural traditions of
+							Jharkhand, offering a memorable culinary experience.
+						</p>
+					</div>
+
+					<div class="food-container wb">
+						<header class="food-text food-header wb-text">West Bengal</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/wb.jpg"
+							alt="Famous food from West Bengal known as Rosogolla"
+						/>
+						<p class="food-text wb-text">
+							<span style="font-weight: bold">Rosogolla</span>, an iconic
+							Bengali sweet, is a heavenly delicacy that brings joy to every
+							palate. These spongy white balls of delight are made from soft
+							paneer dough, cooked to perfection, and soaked in a sugar syrup
+							infused with aromatic flavors. Rosogolla is a timeless symbol of
+							West Bengal's rich culinary heritage and is cherished as a symbol
+							of love and celebration.
+						</p>
+					</div>
+
+					<div class="food-container maharashtra">
+						<img
+							class="food-img"
+							src="../assets/images/food/maharashtra.jpg"
+							alt="Famous food from Maharashtra known as Vada Pav"
+						/>
+						<header class="food-text food-header maharashtra-text">
+							Maharashtra
+						</header>
+						<p class="food-text maharashtra-text">
+							<span style="font-weight: bold">Vada Pav</span>, an iconic street
+							food of Maharashtra, is a delectable combination of flavors and
+							textures. A spiced potato fritter is encased in a soft bun,
+							accompanied by zesty chutneys and aromatic spices. This savory
+							delight captures the essence of Maharashtra's culinary heritage,
+							offering a burst of flavors that leaves a lasting impression. Vada
+							Pav is a beloved snack that embodies the spirit of Mumbai's
+							bustling street food scene.
+						</p>
+					</div>
+
+					<div class="food-container chhattisgarh">
+						<header class="food-text food-header chhattisgarh-text">
+							Chhattisgarh
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/chhattisgarh.jpg"
+							alt="Famous food from Chhattisgarh known as Chila"
+						/>
+						<p class="food-text chhattisgarh-text">
+							<span style="font-weight: bold">Chila</span>, a culinary gem from
+							Chhattisgarh, is a delightful and versatile dish that captivates
+							taste buds. Made from a fermented batter of rice and lentils,
+							these thin and savory pancakes offer a soft and fluffy texture.
+							Served with chutney or curry, Chila is a beloved breakfast or
+							snack option that showcases the traditional flavors and cultural
+							heritage of Chhattisgarh.
+						</p>
+					</div>
+
+					<div class="food-container odisha">
+						<img
+							class="food-img"
+							src="../assets/images/food/odisha.jpg"
+							alt="Famous food from Odisha known as Pakhala"
+						/>
+						<header class="food-text food-header odisha-text">Odisha</header>
+						<p class="food-text odisha-text">
+							<span style="font-weight: bold">Pakhala</span>, a culinary
+							treasure of Odisha, is a nourishing and refreshing dish that
+							tantalizes taste buds. Cooked rice is soaked in water and left to
+							ferment overnight, resulting in a delightful tangy flavor. Served
+							with an array of accompaniments like fried fish, curries, and
+							vegetables, Pakhala offers a unique culinary experience that
+							showcases the rich cultural heritage of Odisha.
+						</p>
+					</div>
+
+					<div class="food-container telangana">
+						<header class="food-text food-header telangana-text">
+							Telangana
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/telangana.jpg"
+							alt="Famous food from Telangana known as Hyderabadi Biryani"
+						/>
+						<p class="food-text telangana-text">
+							<span style="font-weight: bold">Hyderabadi Biryani</span> is a
+							popular rice dish originating from the Indian city of Hyderabad.
+							The dish is made with long grain basmati rice and flavored with
+							aromatic spices, herbs, and saffron. It is typically layered with
+							marinated meat (chicken or lamb) and cooked on a slow flame,
+							resulting in a fragrant and spicy dish with tender meat. Served
+							with raita or salan, it is a favorite among food lovers worldwide.
+						</p>
+					</div>
+
+					<div class="food-container karnataka">
+						<img
+							class="food-img"
+							src="../assets/images/food/karnataka.jpg"
+							alt="Famous food from Karnataka known as Masala Dosa"
+						/>
+						<header class="food-text food-header karnataka-text">
+							Karnataka
+						</header>
+						<p class="food-text karnataka-text">
+							<span style="font-weight: bold">Masala Dosa</span>, a beloved
+							culinary delight from Karnataka, is a crispy rice and lentil crepe
+							stuffed with a spicy and flavorful potato filling. This South
+							Indian delicacy offers a perfect balance of textures and tastes,
+							with the dosa's golden exterior and the savory filling. Served
+							with sambar and coconut chutney, Masala Dosa is a must-try dish
+							that showcases the rich flavors and culinary heritage of
+							Karnataka.
+						</p>
+					</div>
+
+					<div class="food-container aph">
+						<header class="food-text food-header aph-text">
+							Andhra Pradesh
+						</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/aph.jpg"
+							alt="Famous food from Andhra Pradesh known as 
+						Gongura Pachadi"
+						/>
+						<p class="food-text aph-text">
+							<span style="font-weight: bold">Gongura Pachadi</span>, a culinary
+							gem from Andhra Pradesh, is a tangy and flavorful chutney that
+							tantalizes taste buds. Made from the leaves of the gongura plant,
+							it offers a unique combination of tanginess and spiciness. With
+							its vibrant red color and distinctive taste, Gongura Pachadi is a
+							beloved accompaniment in Andhra cuisine, adding a zesty kick to
+							any meal.
+						</p>
+					</div>
+
+					<div class="food-container kerala">
+						<img
+							class="food-img"
+							src="../assets/images/food/kerala.jpg"
+							alt="Famous food from Kerala known as Appam with Stew"
+						/>
+						<header class="food-text food-header kerala-text">Kerala</header>
+						<p class="food-text kerala-text">
+							<span style="font-weight: bold">Appam with Stew</span> is a
+							signature dish from Kerala, offering a delightful culinary
+							experience. Appam is a lacy and soft rice pancake with a slightly
+							crispy edge, while Stew is a fragrant and creamy coconut-based
+							curry infused with spices. The combination of these two dishes
+							creates a harmonious blend of textures and flavors, showcasing the
+							rich culinary heritage of Kerala.
+						</p>
+					</div>
+
+					<div class="food-container tn">
+						<header class="food-text food-header tn-text">Tamil Nadu</header>
+						<img
+							class="food-img"
+							src="../assets/images/food/tn.jpg"
+							alt="Famous food from Tamil Nadu known as Idli with Sambar and Chutney"
+						/>
+						<p class="food-text tn-text">
+							<span style="font-weight: bold"
+								>Idli with Sambar and Chutney</span
+							>
+							is an iconic dish from Tamil Nadu, offering a delightful culinary
+							experience. Idli is a steamed rice cake that is light, fluffy, and
+							incredibly versatile. Served with piping hot sambar, a flavorful
+							lentil soup with vegetables, and a variety of chutneys, such as
+							coconut and tomato, this combination creates a perfect balance of
+							flavors, textures, and nutrition, representing the rich culinary
+							heritage of Tamil Nadu.
+						</p>
+
+						<button onclick="hide()" style="color: #9c2f0d;">
+							<i class="fa fa-angle-up"></i>
+							<div>Read Less</div>
+						</button>
+					</div>
+				</section>
+			</section>
+		</main>
+
+		<footer id="foot" class="foot">
+			<div class="description">
+				<div class="logo-tagline">
+					<img src="../assets/logo.png" alt="website logo" />
+					<header>Savor the journey through India's culinary heritage</header>
+				</div>
+				<p>
+					Welcome to Spice Route, your ultimate culinary journey through the
+					flavors of India. Our website is a treasure trove of diverse and
+					authentic Indian cuisine, offering a gastronomic experience that spans
+					the length and breadth of the country. From the aromatic curries of
+					the North to the fiery delicacies of the South, we bring you a curated
+					selection of traditional dishes that will tantalize your taste buds.
+					So, embark on a virtual spice trail with us and explore the rich
+					culinary heritage of India.
+				</p>
+			</div>
+			<form>
+				<label>LEAVE US A MESSAGE</label>
+				<input type="text" name="name" placeholder="Your Name" required />
+				<input
+					type="email"
+					name="email"
+					placeholder="Your E-mail Address"
+					required
+				/>
+				<textarea placeholder="Your Message for Us"></textarea>
+				<input type="submit" id="submit" />
+			</form>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
