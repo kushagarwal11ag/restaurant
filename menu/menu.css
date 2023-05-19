@@ -3,6 +3,10 @@
 		url(../assets/images/menu.jpg);
 }
 
+.gradient {
+	background-image: linear-gradient(to right, #9ddbdb, #ffffff);
+}
+
 .menu,
 .favourite {
 	padding: 2rem;
