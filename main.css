@@ -158,6 +158,21 @@ footer form textarea {
 	width: 50%;
 }
 
+.gradient {
+	background-image: linear-gradient(to left, #dd7c70, #ffffff);
+	animation: gradientAnimation 5s linear alternate infinite;
+	background-size: 200%;
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 100%;
+	}
+}
+
 @media (min-width: 400px) {
 	html {
 		font-size: 16px;
