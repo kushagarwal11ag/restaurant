@@ -159,7 +159,7 @@ footer form textarea {
 }
 
 .gradient {
-	background-image: linear-gradient(to left, #dd7c70, #ffffff);
+	background-image: linear-gradient(to left, #d8a098, #ffffff);
 	animation: gradientAnimation 5s linear alternate infinite;
 	background-size: 200%;
 }
