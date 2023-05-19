@@ -3,12 +3,6 @@
 		url(../assets/images/banquet.jpg);
 }
 
-.gradient {
-	background-image: linear-gradient(to left, #e05b49, #ffffff);
-	animation: gradientAnimation 5s linear alternate infinite;
-	background-size: 200%;
-}
-
 .commitment {
 	padding: 2rem;
 	display: grid;
@@ -170,15 +164,6 @@
 	.collage-h6 {
 		grid-row: 6/7;
 		grid-column: 2/3;
-	}
-}
-
-@keyframes gradientAnimation {
-	0% {
-		background-position: 0%;
-	}
-	100% {
-		background-position: 100%;
 	}
 }
 
