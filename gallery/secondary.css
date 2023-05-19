@@ -36,8 +36,6 @@ a:active {
 
 .gradient {
 	background-image: linear-gradient(to right, #d2ffff, #e05b49);
-	animation: gradientAnimation 5s linear alternate infinite;
-	background-size: 200%;
 }
 
 .back-to-gallery {
@@ -50,15 +48,6 @@ a:active {
 	font-size: 1.5rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
-}
-
-@keyframes gradientAnimation {
-	0% {
-		background-position: 0%;
-	}
-	100% {
-		background-position: 100%;
-	}
 }
 
 @media (min-width: 576px) {
